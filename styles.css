@@ -316,7 +316,7 @@ footer.site-footer{background:var(--black);color:var(--text-light);padding:30px 
   nav.main-nav .submenu{position:static;display:block;background:transparent;padding-left:14px;box-shadow:none;}
   nav.main-nav li a{border-bottom:1px solid rgba(255,255,255,.08);}
   .nav-toggle-checkbox:checked ~ nav.main-nav{display:block;}
-  .nav-toggle-label{display:none;} /* mobile navbar shows only logo + GET ID */
+  .nav-toggle-label{display:block;}
   .nav-close-label{
     display:block;position:absolute;top:14px;right:18px;font-size:32px;
     color:var(--gold);cursor:pointer;
