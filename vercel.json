@@ -4,18 +4,9 @@
       "source": "/sitemap.xml",
       "has": [
         {
-          "type": "host",
-          "value": "www.reddyannasite.live"
-        }
-      ],
-      "destination": "/sitemap-reddyannasite.xml"
-    },
-    {
-      "source": "/sitemap.xml",
-      "has": [
-        {
-          "type": "host",
-          "value": "reddyannasite.live"
+          "type": "header",
+          "key": "host",
+          "value": "^(www\\.)?reddyannasite\\.live(\\:\\d+)?$"
         }
       ],
       "destination": "/sitemap-reddyannasite.xml"
