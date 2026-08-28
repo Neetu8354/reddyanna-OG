@@ -1,6 +1,26 @@
 {
   "rewrites": [
     {
+      "source": "/sitemap.xml",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.reddyannasite.live"
+        }
+      ],
+      "destination": "/sitemap-reddyannasite.xml"
+    },
+    {
+      "source": "/sitemap.xml",
+      "has": [
+        {
+          "type": "host",
+          "value": "reddyannasite.live"
+        }
+      ],
+      "destination": "/sitemap-reddyannasite.xml"
+    },
+    {
       "source": "/((?!.*\\.).*)$",
       "destination": "/index.html"
     }
