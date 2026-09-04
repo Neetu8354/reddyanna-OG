@@ -298,6 +298,10 @@ footer.site-footer{background:var(--black);color:var(--text-light);padding:30px 
 .blog-card p{font-size:13px;color:#aaa;margin:0 0 16px;flex:1;line-height:1.45;}
 .blog-card .btn{margin-top:auto;}
 
+/* ---------------- Article links ---------------- */
+.article p a{color:var(--gold);text-decoration:underline;}
+.article p a:hover{text-decoration:none;}
+
 /* ---------------- Responsive ---------------- */
 
 /* Tablet / small desktop: sidebar hidden, same as the reference mobile design */
